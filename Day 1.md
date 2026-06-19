@@ -56,8 +56,6 @@ Di akhir Day 1, kamu akan bisa:
 | Automasi respons | Active Response (block IP, kill process, dll) |
 | Cloud security posture | Integrasi AWS, Azure, GCP, Office 365 |
 
-> 💡 **Catatan untuk konteks kamu:** Karena kamu pernah menangani insiden keamanan pada instalasi OJS di Docker (CVE-2024-56525), Wazuh sangat relevan — modul **Log Analysis**, **File Integrity Monitoring**, dan **Docker Integration** di hari-hari berikutnya bisa langsung dipetakan ke skenario forensik yang kamu lakukan secara manual kemarin (cek integritas file, log HTTP, database). Wazuh pada dasarnya mengotomasi proses investigasi semacam itu.
-
 ### Latar Belakang Proyek
 
 - Wazuh adalah **fork** dari OSSEC HIDS (Host-based Intrusion Detection System) yang dikembangkan lebih lanjut menjadi platform SIEM/XDR penuh.
