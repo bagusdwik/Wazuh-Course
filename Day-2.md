@@ -134,7 +134,7 @@ tail -f /var/ossec/logs/alerts/alerts.json | jq
 </global>
 ```
 
-> ⚠️ Mengaktifkan `logall` akan meningkatkan penggunaan disk secara signifikan — gunakan hanya saat dibutuhkan untuk debugging mendalam (mirip saat kamu melakukan analisis HTTP log forensik pada insiden OJS — kamu ingin **semua** request, bukan cuma yang "mencurigakan").
+> ⚠️ Mengaktifkan `logall` akan meningkatkan penggunaan disk secara signifikan — gunakan hanya saat dibutuhkan untuk debugging mendalam (mirip saat kamu melakukan analisis HTTP log forensik pada insiden — kamu ingin **semua** request, bukan cuma yang "mencurigakan").
 
 ### Monitoring Network Devices via Syslog
 
