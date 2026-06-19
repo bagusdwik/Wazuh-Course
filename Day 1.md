@@ -239,8 +239,6 @@ Contoh struktur grup:
     └── agent.conf      ← misalnya berisi syscheck khusus folder web app (OJS, dsb.)
 ```
 
-> 💡 Untuk environment seperti server OJS milikmu, kamu bisa membuat grup `journal-servers` dengan `agent.conf` yang fokus memantau direktori upload, config OJS, dan file PHP — supaya kalau ada serangan seperti injeksi konten via REST API lagi, Wazuh langsung mendeteksi perubahan file mencurigakan.
-
 ### 🧪 Lab Exercise: Wazuh Configuration
 
 - **Mengelola konfigurasi utama manager** (`ossec.conf`) dan internal options.
